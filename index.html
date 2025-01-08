@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel Universe</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- note only icon cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+    <!-- note only icon cdn -->
+</head>
+
+<body>
+    <div class="side-nav">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/800px-Marvel_Logo.svg.png" alt="Marvel Logo" class="logo">
+        <br>
+        <h1>Marvel Universe</h1>
+        <a href="#section1">Avengers Assemble</a>
+        <a href="#section2">Villain Profiles</a>
+        <a href="#section3">Kang's Timelines</a>
+        <a href="#section4">Hero Profiles</a>
+        <a href="#section5">Progress of Conquest</a>
+        <a href="#section6">Collapsible Insights</a>
+    </div>
+    <div class="content">
+        <section id="section1">
+            <h2>Avengers Assemble!</h2>
+            <p>Welcome to the Marvel Universe! Here, heroes and villains battle for dominance. Join Earth's mightiest heroes as they protect the world from the forces of evil.</p>
+            <div class="image-container">
+                <img src="https://cdn.marvel.com/u/prod/marvel/i/mg/4/30/52695ed19538d/standard_incredible.jpg" alt="Avengers Assemble">
+                <div class="overlay-text">Avengers Assemble!</div>
+            </div>
+        </section>
+        <section id="section2">
+            <h2>Villain Profiles</h2>
+            <p>Explore the dark side of the Marvel Universe. Learn about some of the most dangerous and cunning villains who have challenged the Avengers and other heroes.</p>
+            <div class="image-container">
+                <img src="https://www.escapistmagazine.com/wp-content/uploads/2023/11/kang-the-conqueror-header-image.jpg" alt="Kang the Conqueror">
+                <div class="form-container">
+                    <h2>Villain Login</h2>
+                    <form action="#" method="post">
+                        <label for="idv">Villain ID</label>
+                        <input type="text" id="idv" name="idv" placeholder="Enter Villain ID" required>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Enter Password" required>
+                        <button type="submit">Login</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="section3">
+            <h2>Kang's Timelines</h2>
+            <p>Kang the Conqueror is a master of time. Take a look at different timelines and alternate realities that Kang has manipulated in his quest for power.</p>
+            <div class="slideshow-container">
+                <div class="slide fade">
+                    <img src="https://www.comicbasics.com/wp-content/uploads/2023/02/Prime-Kang-Earth-6311-856x1300.webp" alt="Prime Kang (Earth-6311)">
+                </div>
+                <div class="slide fade">
+                    <img src="https://www.comicbasics.com/wp-content/uploads/2023/02/Iron-Lad.webp" alt="Iron Lad">
+                </div>
+                <div class="slide fade">
+                    <img src="https://www.comicbasics.com/wp-content/uploads/2023/02/Rama-Tut.jpg" alt="Rama-Tut">
+                </div>
+                <div class="slide fade">
+                    <img src="https://www.comicbasics.com/wp-content/uploads/2023/02/Chronomonitor-616.webp" alt="Chronomonitor #616">
+                </div>
+                <div class="slide fade">
+                    <img src="https://www.comicbasics.com/wp-content/uploads/2023/02/Kang-the-Conglomerator.webp" alt="Kang the Conglomerator">
+                </div>
+            </div>
+        </section>
+        <section id="section4">
+            <h2>Hero Profiles</h2>
+            <div class="profile-card">
+                <div class="card-header">
+                    <h2>Hero Profile Card</h2>
+                </div>
+                <img src="https://wallpapers.com/images/hd/kang-the-conqueror-of-time-onl8zyvb5c9s32uy.jpg" alt="Kang the Conqueror" class="profile-image">
+                <h3 class="profile-name">Kang the Conqueror</h3>
+                <p class="profile-title">Master strategist, tactician, and time manipulator</p>
+                <p class="profile-education">Council of Kangs</p>
+                <div class="social-links">
+                    <a href="https://www.marvel.com/" class="social-icon"><i class="bi bi-globe"></i></a>
+                    <a href="https://x.com/MarvelStudios" class="social-icon"><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.linkedin.com/company/marvel-studios" class="social-icon"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://www.facebook.com/Marvel/" class="social-icon"><i class="bi bi-facebook"></i></a>
+                </div>
+                <button class="contact-btn">Contact</button>
+            </div>
+        </section>
+        <section id="section5">
+            <h2>Progress of Conquest</h2>
+            <p>Track the progress of Kang's conquest across different timelines. See how far he has come and what challenges lie ahead.</p>
+            <div class="container">
+                <h2>Progress Bar Example</h2>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-bar"></div>
+                </div>
+                <button id="increase-progress">Increase Progress</button>
+                <button id="reset-progress">Reset Progress</button>
+                <button id="animate-progress">Animate Progress</button>
+            </div>
+        </section>
+        <section id="section6">
+            <h2>Collapsible Insights</h2>
+            <p>Discover hidden insights about Kang's strategies and the evolution of his empire. Click below to toggle between different collapsible sections.</p>
+            <div class="container">
+                <h2>Collapsible Sections</h2>
+                <button class="collapsible"><i class="bi bi-box-arrow-in-up"></i> Kang's Early Years</button>
+                <div class="contentcol">
+                    <p>This section covers the early years of Kang's rise to power, including his manipulation of time and space to establish himself as a conqueror.</p>
+                </div>
+                <button class="collapsible"><i class="bi bi-box-arrow-in-up"></i> The Conqueror's War</button>
+                <div class="contentcol">
+                    <p>Learn about the wars that Kang waged across different realities to further his dominion over time.</p>
+                </div>
+                <button class="collapsible"><i class="bi bi-box-arrow-in-up"></i> The Legacy of Kang</button>
+                <div class="contentcol">
+                    <p>Explore Kang's lasting legacy and the impact of his actions across the timelines.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
